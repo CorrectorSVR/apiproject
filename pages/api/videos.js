@@ -1,3 +1,23 @@
+import Cors from 'cors';
+
+// Inicializa el middleware de CORS
+const cors = Cors({
+  methods: ['GET', 'POST', 'PUT', 'DELETE'],
+  origin: ['http://localhost:5173', 'https://aluraflix-eosin-zeta.vercel.app'], // Solo permite estos orígenes
+});
+
+// Helper para manejar CORS como un middleware Next.js
+function runMiddleware(req, res, fn) {
+  return new Promise((resolve, reject) => {
+    fn(req, res, (result) => {
+      if (result instanceof Error) {
+        return reject(result);
+      }
+      return resolve(result);
+    });
+  });
+}
+
 // Base de datos inicial de videos
 let videos = [
     {
@@ -98,7 +118,10 @@ let videos = [
     }
   ];
   
-  export default function handler(req, res) {
+  export default async function handler(req, res) {
+    // Ejecuta el middleware de CORS antes de manejar la solicitud
+    await runMiddleware(req, res, cors);
+  
     if (req.method === 'GET') {
       // Método GET: Devuelve todos los videos
       res.status(200).json({ videos });
@@ -144,5 +167,4 @@ let videos = [
       res.status(405).json({ message: 'Método no permitido' });
     }
   }
-  
 
