@@ -23,7 +23,7 @@ let videos = [
     {
       id: "1",
       title: "Dead Cells Inmortalis",
-      previewImage: "/images/Inmortals.jpg",
+      previewImage: "https://apiproject-nu.vercel.app/images/Inmortals.jpg",
       url: "https://www.youtube.com/watch?v=B3gdVvAu0fo",
       category: "Animation",
       description: "Serie basada en un videojuego Roguelike"
@@ -31,7 +31,7 @@ let videos = [
     {
       id: "2",
       title: "Murder Drones",
-      previewImage: "/images/Drones.jpg",
+      previewImage: "https://apiproject-nu.vercel.app/images/Drones.jpg",
       url: "https://www.youtube.com/watch?v=mImFz8mkaHo",
       category: "Animation",
       description: "Serie de animación indie cgi"
@@ -39,7 +39,7 @@ let videos = [
     {
       id: "3",
       title: "Tales of Zestiria",
-      previewImage: "/images/Zestiria w.jpg",
+      previewImage: "https://apiproject-nu.vercel.app/images/Zestiria w.jpg",
       url: "https://www.youtube.com/watch?v=6P-GnpOKVeM",
       category: "Animation",
       description: "Serie basada en un videojuego rpg"
@@ -47,7 +47,7 @@ let videos = [
     {
       id: "4",
       title: "Shadow Dark Beginnings",
-      previewImage: "/images/shadow-y-maria.jpg",
+      previewImage: "https://apiproject-nu.vercel.app/images/shadow-y-maria.jpg",
       url: "https://www.youtube.com/watch?v=1s188WNEiqw",
       category: "Animation",
       description: "Mini serie basada en un videojuego de plataformas"
@@ -55,7 +55,7 @@ let videos = [
     {
       id: "5",
       title: "Sky Childrens of Light",
-      previewImage: "/images/Sky.jpg",
+      previewImage: "https://apiproject-nu.vercel.app/images/Sky.jpg",
       url: "https://www.youtube.com/watch?v=rLOesNZTtqo",
       category: "Videogame",
       description: "Videojuego Zen free to play "
@@ -63,7 +63,7 @@ let videos = [
     {
       id: "6",
       title: "Nier Automata",
-      previewImage: "/images/Nier.jpg",
+      previewImage: "https://apiproject-nu.vercel.app/images/Nier.jpg",
       url: "https://www.youtube.com/watch?v=B6kolEKghBw",
       category: "Videogame",
       description: "Videojuego rpg de acción"
@@ -71,7 +71,7 @@ let videos = [
     {
       id: "7",
       title: "Clock Tower Rewind",
-      previewImage: "/images/Clock tower.jpg",
+      previewImage: "https://apiproject-nu.vercel.app/images/Clock tower.jpg",
       url: "https://www.youtube.com/watch?v=EdV1kzvyr9w",
       category: "Videogame",
       description: "Videojuego de horror point and click"
@@ -79,7 +79,7 @@ let videos = [
     {
       id: "8",
       title: "Final Fantasy vs XIII",
-      previewImage: "/images/Stelle.jpg",
+      previewImage: "https://apiproject-nu.vercel.app/images/Stelle.jpg",
       url: "https://www.youtube.com/watch?v=YiIx9VJWSl8",
       category: "Videogame",
       description: "Videojuego spin off rpg de acción"
@@ -87,7 +87,7 @@ let videos = [
     {
       id: "9",
       title: "Salth of the Earth",
-      previewImage: "/images/Lovesdrug.jpg",
+      previewImage: "https://apiproject-nu.vercel.app/images/Lovesdrug.jpg",
       url: "https://www.youtube.com/watch?v=Balo8b7fESI",
       category: "Music",
       description: "Canción de rock alternativo"
@@ -95,7 +95,7 @@ let videos = [
     {
       id: "10",
       title: "Hymn for the missing",
-      previewImage: "/images/Missinge.jpg",
+      previewImage: "https://apiproject-nu.vercel.app/images/Missinge.jpg",
       url: "https://www.youtube.com/watch?v=5jMsmy_xt3U",
       category: "Music",
       description: "Canción de nu metal"
@@ -103,7 +103,7 @@ let videos = [
     {
       id: "11",
       title: "Decretum",
-      previewImage: "/images/Decretum.jpg",
+      previewImage: "https://apiproject-nu.vercel.app/images/Decretum.jpg",
       url: "https://www.youtube.com/watch?v=A_k9d391eP0",
       category: "Music",
       description: "Banda sonora de un anime magical girls"
@@ -111,7 +111,7 @@ let videos = [
     {
       id: "12",
       title: "Lightwaves",
-      previewImage: "/images/LightWaves.jpg",
+      previewImage: "https://apiproject-nu.vercel.app/images/LightWaves.jpg",
       url: "https://www.youtube.com/watch?v=DjJKHFwLpg4",
       category: "Music",
       description: "Banda sonora del videojuego Final Fantasy X-2"
