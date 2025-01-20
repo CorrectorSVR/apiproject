@@ -87,7 +87,7 @@ let videos = [
     {
       id: "9",
       title: "Salth of the Earth",
-      previewImage: "https://apiproject-nu.vercel.app/images/Lovesdrug.jpg",
+      previewImage: "https://apiproject-nu.vercel.app/images/Loveds.jpg",
       url: "https://www.youtube.com/watch?v=Balo8b7fESI",
       category: "Music",
       description: "Canción de rock alternativo"
